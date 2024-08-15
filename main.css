@@ -1,0 +1,60 @@
+ /*Diego Garcia 
+diegarci@uat.edu
+6/27/24
+*/
+body{
+	background-color:aquamarine ;
+	color:brown;
+}
+
+nav{
+	height : 200px;
+	width : 200px;
+	float: left;
+	padding: 5px;
+	line-height : 30px;
+}
+
+footer{
+	text-align: center;
+	margin-left: 10px;
+}
+#table{
+	text-align: center;
+	
+}
+
+#memeImage{
+	margin-right: 200px;
+	image-orientation:center;
+}
+header{
+	text-align:center;
+	
+}
+
+.Button{
+align-items: center;
+background-color: blanchedalmond;
+width : 200px;
+
+
+
+}
+
+#palinTitle{
+text-align: center;
+font-family: 'Old English Five', sans-serif;
+                                                
+
+}
+
+#palinBody{
+	padding-left: 475px;
+
+}
+
+#palinStatus{
+	font-size: larger;
+	font-style: italic;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html> 
+  <!-- 9.1: Palindrome Checker
+    1. allow user input of first and last 
+    2. Make variable containing first name + space + last name and zip
+    3. Check for how many character greater then> 20 present error
+        1. <less then 20, good entry
+    4. check to see if zip code is accurate
+    5. Good name and zip, give secret message
+add creative like font image etc
+comment on every line of code
+
+input validation on prev version
+
+palindrome checker
+    1. make a place to submit word for checking
+    2.add button to submit word for checking to palindrome checking function (checkPalin())
+    3. Return whether it is a palindrone or not 
+    4. add 2 elements of style
+
+
+    Dieo Garcia
+    27 june 2024
+        diegarci@uat.edu
+   -->
+
+<head>
+    <title>Input validation</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/old-english-five');
+</style>
+
+    <script src="code.js"></script>
+</head>
+<body> 
+<header>
+<h1> WELCOME TO  DIEGO GARCIA's INPUT VALIDATION PAGE</h1>
+</header>
+
+ <nav>
+    <h2>Navigation</h2>
+    <h3><a href="./index.html">Home</a><br>
+    <a href="./Boards.html">Boards</a><br>
+    <a href="./game.html">Game page</a><br>
+    <a href="./strings.html">Input validation page</a>
+    <br> <a href="./allTogether.html">All Together page!</a>
+    </h3>
+ </nav>
+
+<h2>
+    Input Validation section
+</h2>
+<div id="loginStatus">Press submit to login</div>
+<p>
+    please submit the following data for validation
+</p>
+<form id="submit credit" onsubmit="return false">
+    First Name: <input type="text" id="fName"><br>
+    Last Name: <input type="text" id="lName"><br>
+    Zip &nbsp; Code: <input typ="number" id="zipCode"><br>
+    <br>
+    <input type="submit" onclick="checkCreds()">
+</form>
+
+
+ <!-- Is zip code <a id= = "zipCodeDis"></a> valid? <div id= "zipTest"></div>
+    <script>
+    var zipCode = "85283";
+    var isValidZip = /(^\d{5}$)|(^\d{5}-\d{4}$)/.test(zipCode);
+    document.getElementById("zipTest").innerHTML = isValidZip;
+    document.getElementById("zipCodeDis").innerHTML = zipCode;
+    </script> -->
+
+<br>
+<br>
+<br>
+<br>
+
+    <h2 id="palinTitle">Palindrome Checker</h2>
+<div id="palinBody"><br> 
+<div id=palinStatus>Palindrome Status: </div>
+<br>
+    <form id="palinSubmit" onsubmit="return false">
+        Enter possible palindrome: <input type="text" id="palinInput"><br>
+        <br>
+        <input type="submit" onclick="checkPalin();"><br>
+
+
+    </form>
+</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+</body>
+<footer>
+    DIEGO GARCIA<br>
+    Address: 2625 W Baseline Rd, Tempe, AZ 85283 <br>
+    University of Advancing Technology <br>
+
+</footer>
+    </html>

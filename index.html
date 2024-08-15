@@ -1,0 +1,131 @@
+<!--this connects the boards and home pages together
+
+Diego Garcia 
+diegarci@uat.edu
+6/27/24
+8/11/24  is Update for table
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DIEGO GARCIA's WEB PAGE </title>
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js"></script>
+    <style>
+         th, td {
+             border: 1px solid black;
+             border-collapse: collapse;
+}
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1> WELCOME TO DIEGO GARCIA's WEB PAGE</h1>
+    </header>
+    <p>
+        <center>I am a learning html in CSC102 in summer 2024 my teacher is Prof Prater!
+        </center>
+    </p>
+
+    <nav>
+        <h2>Navigation</h2>
+        <h3><a href="./index.html">Home</a></h3>
+        <h3><a href="./Boards.html">Boards</a><br></h3>
+        <a href="./game.html">Game page</a><br>
+        <a href="./strings.html">Input validation page</a>
+        <br> <a href="./allTogether.html">All Together page!</a>
+    </nav>
+
+
+    <p>
+
+        <center> <img id="memeImage" src="cat meme.png"></center>
+
+    </p>
+
+    <!--Movement for stop start buttons and image of train-->
+    <marquee id="myMarquee" direction="right">
+        <img id="trainImage" src="train png not inverted.png" width="600" height="300" />
+    </marquee>
+
+    <br>
+    <br>
+    <br>
+    <center>
+        <button id="startButton" onclick="startfun();" class="Button">Start</button>
+        <button id="stopButton" onclick="stopfun();" class="Button">Stop</button>
+    </center>
+
+
+    <br>
+    <br>
+    <!--Im adding the train sound here https://soundbible.com/1693-Train-Approach-N-Pass.html
+    is the site where i got the sound-->
+    <center><img src="trainwhistle.png" onclick="trainSounds()" style="max-width: 25%;" />
+    </center>
+    <br>
+    <br>
+    <!--We will put a table here-->
+    <center><h2><u>Favorite Anime Series 2000s I've seen</u></h2>
+   <Table style="width: 60%;" id="table"></center>
+        
+        <colgroup>
+        <col span="1" style="width: 15%;">
+        <col span="1" style="width: 75%;">
+        <col span="1" style="width: 15%;">
+        </colgroup>
+        <tr>
+            <th>Ranking</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Why I like it </th>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>Samurai Champloo</td>
+            <td>2004</td>
+            <td>Great Music </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Afro Samurai</td>
+            <td>2007</td>
+            <td>Great Action</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fullmetal Alchemist </td>
+            <td>2003</td>
+            <td>Great Story</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>InuYasha </td>
+            <td>2009</td>
+            <td>Pretty Funny </td>
+        </tr>
+       
+
+
+    </Table>
+
+<br>
+<br>
+
+    <footer>
+        <center>
+            DIEGO GARCIA<br>
+            Address: 2625 W Baseline Rd, Tempe, AZ 85283 <br>
+            University of Advancing Technology <br>
+        </center>
+    </footer>
+
+</body>
+
+
+</html>

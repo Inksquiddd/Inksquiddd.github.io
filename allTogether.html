@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--This is the final project for this class, we need to use 3 items from the following list
+ You should have at least 3 items from this list - decision logic (if/else), loops, string manipulation and validation, functions, classes, and objects
+
+Diego Garcia 
+14 August 2024
+diegarci@uat.edu
+
+For my project I am going to make a timer that you can set that will count to zero at which it will play a song
+    
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Together Now, A Final Project</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js"></script>
+</head>
+
+<nav>
+    <h2>Navigation</h2>
+    <h3><a href="./index.html">Home</a></h3>
+    <h3><a href="./Boards.html">Boards</a><br></h3>
+    <a href="./game.html">Game page</a><br>
+    <a href="./strings.html">Input validation page</a>
+    <br> <a href="./allTogether.html">All Together page!</a>
+
+ </nav>
+<body>
+    <br>
+    <h1>This is a final project for my CSC102 summer course with Prof. Prater</h1>
+    <h3>
+        You should have at least 3 items from this list - decision logic (if/else), loops, 
+        string manipulation and validation, functions, classes, and objects
+    </h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <!--Spaces &nbsp added to fix navigation formatting (preference)
+    it also helps me visualize the hedding in the code itself-->
+    <h3> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp;&nbsp; &nbsp;
+        The number of seconds left <div id="timeLeft">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp;&nbsp; &nbsp;
+            Press submit to begin countdown</div> </h3>
+    
+     <form id="secSubmit" onsubmit="return false"> 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        Enter number of sec: <input type="text" id="secInput"><br>
+        <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input type="submit" onclick="startTimer();"><br>
+
+
+    </form>
+    <br>
+    <br>
+    <center><img src="timerFlowchart.png" style="max-width: 45%;" </center>
+
+    <footer>
+        <center>
+            DIEGO GARCIA<br>
+            Address: 2625 W Baseline Rd, Tempe, AZ 85283 <br>
+            University of Advancing Technology <br>
+        </center>
+    </footer>
+    
+</body>
+
+</html>
